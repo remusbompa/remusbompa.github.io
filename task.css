@@ -1,0 +1,64 @@
+/**
+
+  Use animations here. Useful resources on http://docs.codacloud.net
+
+**/
+
+
+.head {
+  /* TODO */
+	animation-name: moveUp;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	transform-origin: 100% 0;
+}
+
+.body {
+  /* TODO */
+	animation-name: moveUp;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	transform-origin: 100% 0;
+}
+
+.left.hand {
+  /* TODO */
+	animation-name: moveUp;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	transform-origin: 100% 0;
+}
+
+.right.hand {
+  /* TODO */
+	animation-name: moveUp;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	transform-origin: 100% 0;
+}
+
+.left.foot {
+  /* TODO */
+	animation-name: moveUp;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	transform-origin: 100% 0;
+}
+
+.right.foot {
+  /* TODO */
+	animation-name: moveUp;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	transform-origin: 100% 0;
+}
+
+@keyframes moveUp {
+  from {
+    transform: translateY(-100px);
+  }
+
+  -100px {
+    transform: translateY(100px);
+  }
+}
